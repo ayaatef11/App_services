@@ -1,0 +1,320 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f8f8;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00ff00; /* لون أخضر عند التمرير */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color:  #E0F7FA;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.content img {
+    height: auto;
+    width: 45%;
+    border-radius: 10px;
+
+}
+
+.description {
+    padding: 20px;
+}
+
+.description h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.description p {
+    color: #555;
+}
+
+/*end portfolio*/
+
+
+/*start mobile*/
+
+.mobile{
+    background-color: #000;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.web {
+    text-align: left;
+    padding: 20px 0;
+}
+
+.web h1 {
+    margin: 0;
+    font-size: 40px;
+    color: white;
+}
+
+.web p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color: white;
+}
+
+/*end mobile*/
+
+
+/*start espos*/
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000;
+}
+
+#esopos {
+    background-color: #fff;
+}
+
+#stacksend {
+    background-color: #f2f2f2;
+}
+#evergenius{
+    background-color: #2b2828;
+}
+
+#mycoevergenius{
+    background-color: rgb(14, 89, 64);
+}
+#oxford {
+    background-color: #f2f2f2;
+}
+#boundlesspay{
+    background-color: rgb(21, 119, 172);
+}
+
+.app img {
+    width: 300px;
+    height: 390px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.app-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.app-info img {
+    width: 250px;
+    height: 150px;
+    padding-bottom: 10px;
+}
+
+.app-info p {
+    margin: 5px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.detail {
+    flex: 1;
+    text-align: left;
+    padding: 80px 15px ;
+}
+
+.detail p {
+    margin: 0;
+    font-size: 18px;
+}
+.evergenius{
+    color: white;
+}
+
+/*end espos*/
+
+/*start intro-section*/
+
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    gap: 10px;
+}
+
+
+.intro h2 {
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.intro p {
+    font-size: 20px;
+    color: #aaa;
+    margin: 10px;
+    padding: 10px;
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.feature {
+    background-color: #e0f7f5;
+    padding: 40px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-10px); /* Move the feature up on hover */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); /* Enhance the shadow on hover */
+}
+
+.feature h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #00bfa5;
+}
+
+.feature p {
+    margin: 10px 0 0;
+    font-size: 20px;
+    color: #333;
+}
+
+/*end intro-section*/
+
+/*start work-section*/
+
+
+.work-section {
+    background-color: #e0f7f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.work-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.work-text {
+    text-align: left;
+}
+
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 25px;
+    transition: 0.7s ease;
+}
+button:hover{
+    background-color: #06f17f;
+    color: #000;
+    transform: scale(1.1);
+}
+/*end work-section*/
+
+
+
+/* Media Query */
+@media (max-width: 768px) {
+    .content, .app, .work-content ,.intro-section, .features {
+        flex-direction: column;
+    }
+
+    .description, .app-info, .work-text  {
+        text-align: center;
+        padding: 0;
+    }
+    .features{
+        align-items: center;
+    }
+}
+
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 900px) {
+    .content, .app, .work-content ,.intro-section, .features {
+        flex-direction: column;
+        align-items: center;
+    }
+    .description, .app-info, .work-text  {
+        text-align: center;
+        padding: 0;
+    }
+    .features{
+        align-items: center;
+    }
+}
+
+/* Laptop */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .content, .app, .work-content ,.intro-section, .features {
+        flex-direction: column;
+        align-items: center;
+    }
+    .description, .app-info, .work-text  {
+        text-align: center;
+        padding: 0;
+    }
+    .features{
+        align-items: center;
+    }
+}
+

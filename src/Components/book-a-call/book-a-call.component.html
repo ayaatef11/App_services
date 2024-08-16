@@ -1,0 +1,102 @@
+
+<!-- start booking section -->
+<section class="booking-section">
+    <div class="image-container left">
+        <img src="img/pngtree-tabletop-scene-laptop-and-coffee-cup-in-3d-rendering-image_3648659.jpg" alt="Coffee and phone">
+    </div>
+    <div class="booking-details right">
+        <h2>Book a call</h2>
+        <p>Select a suitable time slot and have a face-to-face video call with a project manager to discuss your needs.</p>
+    </div>
+</section>
+<!-- end booking section -->
+
+<!-- start booking section2 -->
+<section class="booking-section2">
+    <div class="message-box" id="message-box">
+    </div>
+    <form id="booking-form">
+        <div class="inline-fields">
+            <div class="field">
+                <label for="month">Month</label>
+                <select id="month" name="month">
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="december">December</option>
+                </select>
+            </div>
+            <div class="field">
+                <label for="day">Day</label>
+                <select id="day" name="day">
+                    <option value="sunday">Sunday</option>
+                    <option value="monday">Monday</option>
+                    <option value="tuesday">Tuesday</option>
+                    <option value="wednesday">Wednesday</option>
+                    <option value="thursday">Thursday</option>
+                    <option value="friday">Friday</option>
+                    <option value="saturday">Saturday</option>
+                </select>
+            </div>
+            <div class="field">
+                <label for="time">Time</label>
+                <select id="time" name="time">
+                    <option value="12:00am">12:00 AM</option>
+                    <option value="1:00am">1:00 AM</option>
+                    <option value="2:00am">2:00 AM</option>
+                    <option value="3:00am">3:00 AM</option>
+                    <option value="4:00am">4:00 AM</option>
+                    <option value="5:00am">5:00 AM</option>
+                    <option value="6:00am">6:00 AM</option>
+                    <option value="7:00am">7:00 AM</option>
+                    <option value="8:00am">8:00 AM</option>
+                    <option value="9:00am">9:00 AM</option>
+                    <option value="10:00am">10:00 AM</option>
+                    <option value="11:00am">11:00 AM</option>
+                    <option value="12:00pm">12:00 PM</option>
+                    <option value="1:00pm">1:00 PM</option>
+                    <option value="2:00pm">2:00 PM</option>
+                    <option value="3:00pm">3:00 PM</option>
+                    <option value="4:00pm">4:00 PM</option>
+                    <option value="5:00pm">5:00 PM</option>
+                    <option value="6:00pm">6:00 PM</option>
+                    <option value="7:00pm">7:00 PM</option>
+                    <option value="8:00pm">8:00 PM</option>
+                    <option value="9:00pm">9:00 PM</option>
+                    <option value="10:00pm">10:00 PM</option>
+                    <option value="11:00pm">11:00 PM</option>
+                </select>
+            </div>
+        </div>
+        <label for="timezone">Time Zone</label>
+        <select id="timezone" name="timezone">
+            <option value="wat">West African Time</option>
+            <option value="cat">Central Africa Time</option>
+            <option value="eat">East Africa Time</option>
+            <option value="gmt">Greenwich Mean Time</option>
+            <option value="cet">Central European Time</option>
+            <option value="est">Eastern Standard Time</option>
+            <option value="pst">Pacific Standard Time</option>
+            <option value="cst">Central Standard Time</option>
+            <option value="ist">Indian Standard Time</option>
+            <option value="jst">Japan Standard Time</option>
+            <option value="aest">Australian Eastern Standard Time</option>
+        </select>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email" required >
+        <label for="topics">Please share the topics you would like to discuss. That will help us prepare for our meeting.</label>
+        <textarea id="topics" name="topics" placeholder="Enter Comment"></textarea>
+        <button type="button" onclick="showAlert()">Schedule Meeting</button>
+    </form>
+</section>
+<!-- end booking section -->

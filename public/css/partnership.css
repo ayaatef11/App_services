@@ -1,0 +1,144 @@
+/*       Global           */
+:root {
+    --main-color: #8DEAC8;
+    --second-color: #EBFAF4;
+}
+
+.text-perple {
+    color: var(--main-color);
+}
+
+/*           partnership agencies         */
+.Partnership_Agencies {
+    background-color: var(--second-color);
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+
+.Partnership_Agencies-content {
+    padding-left: 40px;
+}
+
+.Partnership_Agencies-circle {
+    position: absolute;
+    right: 35%;
+    top: -35%;
+    width: 130px;
+    height: 130px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+}
+
+.Partnership_Agencies img {
+    border-radius: 10px;
+    width: 607px;
+}
+
+.Partnership_Agencies h1 {
+    font-size: 36px;
+    /* padding-left: 65px; */
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.Partnership_Agencies p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+/*       Challemge State           */
+
+.Challenge_State {
+    background-color: white;
+    position: relative;
+    padding-top: 80px;
+}
+
+.Challenge_State img {
+    height: 534px;
+    top: 758px;
+    left: 711px;
+    border-radius: 10px;
+    width: 470px;
+    object-fit: cover;
+    object-position: 50% 80%;
+    margin-left: 20%;
+    position: absolute;
+    top: -20%;
+    max-width: 50%;
+}
+
+.Challenge_State h1 {
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.Challenge_State p {
+    font-size: 18px;
+    line-height: 2;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/*           Pilot                 */
+.Pilot {
+    background-color: white;
+}
+
+.Pilot img {
+    height: 534px;
+    top: 758px;
+    left: 711px;
+    border-radius: 10px;
+    width: 470px;
+    object-fit: cover;
+    object-position: 50% 80%;
+}
+
+.Pilot h1 {
+    font-size: 36px;
+}
+
+.Pilot p {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.Pilot .btn-primary {
+    background-color: #67d6ad;
+    border-color: #67d6ad;
+}
+
+/*          Bonding              */
+.Bonding {
+    background-color: white;
+  }
+  .Bonding img {
+    height: 534px;
+    top: 758px;
+    left: 711px;
+    border-radius: 10px;
+    width:470px ;
+    object-fit: cover;
+    object-position: 50% 80%;
+    margin-left: 20%;
+  }
+  
+  .Bonding h1 {
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .Bonding p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .Bonding .btn-primary {
+    background-color: #67d6ad;
+    border-color: #67d6ad;
+  }
